@@ -132,7 +132,7 @@
         <br><br><br><br> <u><b>{{ $inst->pimpinan}}</b></u> </p>
     </div>
     <footer>
-        Copyright &copy; | Aplikasi Manajemen Surat | <?php echo date("d-m-Y h:i:s");?>
+        Copyright &copy; | Sistem Manajemen Surat | <?php echo date("d-m-Y h:i:s");?>
     </footer>
 </body>
 

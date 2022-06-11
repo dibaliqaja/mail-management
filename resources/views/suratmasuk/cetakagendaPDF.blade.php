@@ -73,7 +73,7 @@
         </tbody>
     </table>
     <footer>
-        Copyright &copy; | Aplikasi Manajemen Surat | <?php echo date("d-m-Y");?>
+        Copyright &copy; | Sistem Manajemen Surat | <?php echo date("d-m-Y");?>
     </footer>
 </body>
 

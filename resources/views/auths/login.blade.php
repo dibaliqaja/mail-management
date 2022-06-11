@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <title>Aplikasi Manajemen Surat</title>
+    <title>Sistem Manajemen Surat</title>
     <style>
         body {
             margin: 0;
@@ -105,12 +105,12 @@
         @endif
         <img src="/logo.svg" alt="Logo" class="logo">
         <br>
-        <h2 class="font-weight-bold text-center">Aplikasi</h2>
+        <h2 class="font-weight-bold text-center">Sistem</h2>
         <h2 class="font-weight-bold text-center">Manajemen Surat</h2>
 
         <form action="postlogin" method="POST">
             @csrf
-            <input type="email" name="email" class="form_login" placeholder="name@example.com" required>
+            <input type="email" name="email" class="form_login" placeholder="email@email.com" required>
             <input id="password" type="password" name="password" class="form_login" placeholder="password" required>
             <button type="submit" class="tombol_login">Login</button>
         </form>
